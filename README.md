@@ -66,11 +66,6 @@ In a separate terminal window, Compile smart contracts:
 truffle compile
 ```
 
-Your terminal should look something like this:
-
-![truffle test](images/truffle_1.png)
-![truffle test](images/truffle_2.png)
-
 This will create the smart contract artifacts in folder ```build\contracts```.
 
 Migrate smart contracts to the locally running blockchain, ganache-cli:
@@ -78,10 +73,6 @@ Migrate smart contracts to the locally running blockchain, ganache-cli:
 ```
 truffle migrate
 ```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_migrate.png)
 
 Test smart contracts:
 
