@@ -31,6 +31,17 @@ The DApp User Interface when running should look like...
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## Libraries Used
+### Web3 (web3)
+The web3 library is a collection of sub libraries or modules which is used to interact with ethereum node either it is local during development or in testing(rinkeby) or production environment(mainnet)
+### Truffle assertions (truffle-assertions)
+Is a set of assertions by truffle. In this project the library is used in order to test for emits in the code in a much cleaner way than normal.
+
+### Truffle contracts (@truffle/contract)
+It allows interaction with contracts in node and even web. It has sever features among them is support for promises and synching transactions.
+
+### Truffle hdwallet provider (@truffle/hdwallet-provider)
+It is an HD-enabled web3 provider to sign transactions.
 ### Prerequisites
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
